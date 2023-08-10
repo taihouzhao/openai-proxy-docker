@@ -10,4 +10,4 @@ RUN npm install pm2 -g
 
 COPY . .
 
-CMD ["pm2", "start", "app.js"]
+CMD ["pm2", "start", "app.js", "-i", "max"]
