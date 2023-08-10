@@ -16,5 +16,5 @@ app.use('/', createProxyMiddleware({
 }));
 
 app.listen(port, () => {
-    console.log(`Proxy agent started http://localhost:${port}`)
+    console.log(`Proxy agent started: http://localhost:${port}`)
 })
