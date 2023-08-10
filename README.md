@@ -1,4 +1,4 @@
-# openai-proxy-docker
+# OpenAI Proxy Docker
 OpenAI API Proxy by Docker
 
 
