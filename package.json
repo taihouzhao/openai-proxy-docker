@@ -1,6 +1,11 @@
 {
   "name": "openai-proxy-docker",
   "version": "1.0.0",
+  "description": "OpenAI API Proxy by Docker",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "node app.js"
   },
