@@ -9,10 +9,13 @@ Just:
 sudo docker run -d -p 9017:9017 shawnai/openai-proxy-docker:latest
 ```
 
-Now, you can check if it works by OpenAI Chat Completion API: ```YOURIP:9017/v1/chat/completions```
+Then, you can use it by ```YOURIP:9017```
 
-It should be the same as ```api.openai.com/v1/chat/completions```
+> For example, the proxied OpenAI Chat Completion API will be: ```YOURIP:9017/v1/chat/completions```
+> 
+> It should be the same as ```api.openai.com/v1/chat/completions```
 
+For detailed usage of OpenAI API, please check: [API Reference](https://platform.openai.com/docs/api-reference/introduction)
 
 ## How to maintain
 Use PM2 to scale up this proxy application accross CPU(s):
