@@ -1,5 +1,5 @@
 # OpenAI Proxy Docker
-OpenAI API Proxy by Docker
+openai-proxy-docker provides an OpenAI API proxy server image by [Docker](https://hub.docker.com/r/shawnai/openai-proxy-docker)
 
 
 ## How to use
