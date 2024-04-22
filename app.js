@@ -4,7 +4,7 @@ const app = express()
 const port = 9017
 
 app.use('/', createProxyMiddleware({
-    target: 'https://api.openai.com',
+    target: 'https://api.groq.com/openai',
     changeOrigin: true,
     onProxyReq: (proxyReq, req, res) => {
         proxyReq.removeHeader('x-forwarded-for');
